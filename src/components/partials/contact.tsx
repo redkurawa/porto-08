@@ -72,7 +72,7 @@ export const Contact = () => {
           </div>
         </div>
         <div>
-          <div className='text-primary-200 text-lg'>Skill</div>
+          <div className='text-primary-200 text-lg'>CONTACT</div>
           <div className='text-display-2xl mb-12 font-extrabold'>
             LET S GET IN TOUCH
           </div>

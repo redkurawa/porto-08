@@ -1,3 +1,5 @@
+import { FAQ } from '@/components/partials/faq';
+
 import { Contact } from '../components/partials/contact';
 import { Hero } from '../components/partials/hero';
 import { Services } from '../components/partials/services';
@@ -9,6 +11,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Skill />
+      <FAQ />
       <Contact />
     </div>
   );

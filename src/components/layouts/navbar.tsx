@@ -7,7 +7,7 @@ export const Navbar = () => {
     <div className='inner-con flex justify-between py-10'>
       <div className='flex items-center gap-2'>
         <span className='border-neutral-25 inline-block w-10 border-2 border-t'></span>
-        <div className='text-xl-bold text-primary-200'>Adi Sudana</div>
+        <div className='text-xl-bold text-primary-200'>Adi</div>
         {/* <Minus /> */}
       </div>
       <div className='flex w-1/2 justify-between'>
