@@ -1,6 +1,7 @@
-import { Hero } from './partials/hero';
-import { Services } from './partials/services';
-import { Skill } from './partials/skill';
+import { Contact } from '../components/partials/contact';
+import { Hero } from '../components/partials/hero';
+import { Services } from '../components/partials/services';
+import { Skill } from '../components/partials/skill';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Skill />
+      <Contact />
     </div>
   );
 }

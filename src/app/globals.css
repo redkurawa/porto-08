@@ -231,9 +231,21 @@
 }
 
 body {
-  @apply bg-base-background text-sm font-normal text-white;
+  @apply bg-black text-sm font-normal text-white;
 
-  font-family: var(--font-poppins);
+  /* font-family: var(--font-poppins); */
+}
+
+input,
+textarea {
+  @apply focus:ring-primary-200 rounded-lg border border-gray-700 bg-black px-2 py-2 text-white focus:ring-2 focus:outline-none;
+}
+
+input:-webkit-autofill {
+  background-color: black !important;
+  color: white !important;
+  -webkit-text-fill-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 @layer components {
