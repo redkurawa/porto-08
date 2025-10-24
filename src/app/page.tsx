@@ -1,4 +1,5 @@
 import { FAQ } from '@/components/partials/faq';
+import { Testimoni } from '@/components/partials/testimoni';
 import { Working } from '@/components/partials/working';
 
 import { Contact } from '../components/partials/contact';
@@ -13,6 +14,7 @@ export default function Home() {
       <Services />
       <Skill />
       <Working />
+      <Testimoni />
       <FAQ />
       <Contact />
     </div>
