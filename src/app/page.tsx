@@ -1,4 +1,5 @@
 import { FAQ } from '@/components/partials/faq';
+import { Working } from '@/components/partials/working';
 
 import { Contact } from '../components/partials/contact';
 import { Hero } from '../components/partials/hero';
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Skill />
+      <Working />
       <FAQ />
       <Contact />
     </div>

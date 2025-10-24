@@ -50,12 +50,6 @@ export const Contact = () => {
     <div className='mt-20'>
       <div className='inner-con flex gap-30.5'>
         <div className="flex w-[420px] flex-col justify-end bg-[url('/images/contact-face.png')]">
-          {/* <Image
-            src='/images/contact-face.png'
-            alt='face'
-            width={420}
-            height={557}
-          /> */}
           <div className='flex justify-center gap-x-6'>
             <Image src='/icons/db.svg' alt='db' width={64} height={64} />
             <Image src='/icons/ig.svg' alt='ig' width={64} height={64} />
