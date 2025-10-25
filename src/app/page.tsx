@@ -1,4 +1,5 @@
 import { FAQ } from '@/components/partials/faq';
+import { Portofolio } from '@/components/partials/portofolio';
 import { Testimoni } from '@/components/partials/testimoni';
 import { Working } from '@/components/partials/working';
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Skill />
+      <Portofolio />
       <Working />
       <Testimoni />
       <FAQ />
