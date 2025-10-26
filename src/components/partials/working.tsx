@@ -1,12 +1,14 @@
 import React from 'react';
 
+import AnimatedHeading from '../ui/animated-heading';
+
 export const Working = () => {
   return (
     <div className='inner-con'>
       <div className='text-primary-200 text-center text-lg'>WORKING</div>
-      <div className='text-display-2xl mb-12 text-center font-extrabold'>
+      <AnimatedHeading className='text-display-2xl mb-12 text-center font-extrabold'>
         WHY CHOOSE ME?
-      </div>
+      </AnimatedHeading>
 
       <div className='grid grid-cols-2 gap-8'>
         <div className='space-y-4'>

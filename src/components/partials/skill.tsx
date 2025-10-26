@@ -1,14 +1,16 @@
 import Image from 'next/image';
 import React from 'react';
 
+import AnimatedHeading from '../ui/animated-heading';
+
 export const Skill = () => {
   return (
     <div className='inner-con flex'>
       <div>
         <div className='text-primary-200 text-lg'>Skill</div>
-        <div className='text-display-2xl font-extrabold'>
+        <AnimatedHeading className='text-display-2xl font-extrabold'>
           SKILLS THAT BRING IDEAS TO LIFE
-        </div>
+        </AnimatedHeading>
         <div className='grid grid-cols-4'>
           <Image src='/icons/js.svg' alt='js' width={52} height={52} />
           <Image src='/icons/css.svg' alt='js' width={52} height={52} />

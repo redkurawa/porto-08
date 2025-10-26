@@ -1,13 +1,15 @@
 import Image from 'next/image';
 import React from 'react';
 
+import AnimatedHeading from '../ui/animated-heading';
+
 export const Portofolio = () => {
   return (
     <div className='inner-con'>
       <div className='text-primary-200 text-center text-lg'>PORTFOLIO</div>
-      <div className='text-display-2xl mb-12 text-center font-extrabold'>
+      <AnimatedHeading className='text-display-2xl mb-12 text-center font-extrabold'>
         SELECTED WORK
-      </div>
+      </AnimatedHeading>
       <div className='grid grid-cols-3 gap-x-5'>
         {[...Array(6)].map((_, i) => (
           <div key={i}>
