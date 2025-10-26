@@ -1,15 +1,17 @@
 import React from 'react';
 
+import AnimatedHeading from '../ui/animated-heading';
+
 export const FAQ = () => {
   return (
     <div className='inner-con'>
       <div className='text-primary-200 text-center text-lg'>FAQ</div>
-      <div className='text-display-2xl mb-12 text-center font-extrabold'>
+      <AnimatedHeading className='text-display-md my-4 font-extrabold tracking-[0px] sm:text-[80px] sm:leading-[80px]'>
         FREQUENTLY ASKED QUESTIONS
-      </div>
-      <div className='grid grid-cols-2 gap-20'>
+      </AnimatedHeading>
+      <div className='grid grid-cols-1 gap-20 sm:grid-cols-2'>
         <div>
-          <div className='text-display-xs font-bold'>
+          <div className='sm:text-display-xs text-lg font-bold'>
             What technologies do you specialize in?
           </div>
           <div className='text-md font-medium text-neutral-400'>
@@ -19,7 +21,7 @@ export const FAQ = () => {
           </div>
         </div>
         <div>
-          <div className='text-display-xs font-bold'>
+          <div className='sm:text-display-xs text-lg font-bold'>
             Do you work on both design and development?
           </div>
           <div className='text-md font-medium text-neutral-400'>
@@ -30,7 +32,7 @@ export const FAQ = () => {
           </div>
         </div>
         <div>
-          <div className='text-display-xs font-bold'>
+          <div className='sm:text-display-xs text-lg font-bold'>
             Can you optimize an existing website for better performance?
           </div>
           <div className='text-md font-medium text-neutral-400'>
@@ -40,7 +42,7 @@ export const FAQ = () => {
           </div>
         </div>
         <div>
-          <div className='text-display-xs font-bold'>
+          <div className='sm:text-display-xs text-lg font-bold'>
             Do you take freelance or contract-based projects?
           </div>
           <div className='text-md font-medium text-neutral-400'>
@@ -50,7 +52,7 @@ export const FAQ = () => {
           </div>
         </div>
         <div>
-          <div className='text-display-xs font-bold'>
+          <div className='sm:text-display-xs text-lg font-bold'>
             How do you approach a new project?
           </div>
           <div className='text-md font-medium text-neutral-400'>
@@ -60,7 +62,7 @@ export const FAQ = () => {
           </div>
         </div>
         <div>
-          <div className='text-display-xs font-bold'>
+          <div className='sm:text-display-xs text-lg font-bold'>
             How can we collaborate?
           </div>
           <div className='text-md font-medium text-neutral-400'>

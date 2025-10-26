@@ -6,7 +6,7 @@ export const Working = () => {
   return (
     <div className='inner-con'>
       <div className='text-primary-200 text-center text-lg'>WORKING</div>
-      <AnimatedHeading className='text-display-2xl mb-12 text-center font-extrabold'>
+      <AnimatedHeading className='text-display-md my-4 font-extrabold tracking-[0px] sm:text-[80px] sm:leading-[80px]'>
         WHY CHOOSE ME?
       </AnimatedHeading>
 

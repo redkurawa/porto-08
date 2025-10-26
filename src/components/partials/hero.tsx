@@ -20,7 +20,7 @@ export const Hero = () => {
           BUILDING FAST & <span className='text-primary-200'>INTERACTIVE </span>
           WEB EXPERIENCES.
         </div>
-        <div className='text-lg-medium sm:text-xl-medium w-1/2 text-neutral-400'>
+        <div className='text-lg-medium sm:text-xl-medium text-neutral-400 sm:w-1/2'>
           Bridging creativity and functionality to deliver stunning,
           user-friendly web applications
         </div>
