@@ -49,7 +49,7 @@ export const Contact = () => {
   return (
     <div className='mt-20'>
       <div className='inner-con flex gap-30.5'>
-        <div className="flex w-[420px] flex-col justify-end bg-[url('/images/contact-face.png')]">
+        <div className="flex h-[514px] w-[420px] flex-col justify-end bg-[url('/images/contact-face.png')]">
           <div className='flex justify-center gap-x-6'>
             <Image src='/icons/db.svg' alt='db' width={64} height={64} />
             <Image src='/icons/ig.svg' alt='ig' width={64} height={64} />
@@ -65,9 +65,9 @@ export const Contact = () => {
             Aviable for work
           </div>
         </div>
-        <div>
+        <div className=''>
           <div className='text-primary-200 text-lg'>CONTACT</div>
-          <div className='text-display-2xl mb-12 font-extrabold'>
+          <div className='text-display-md sm:text-display-2xl mb-12 font-extrabold'>
             LET S GET IN TOUCH
           </div>
           <form onSubmit={handleSubmit} className='flex flex-col'>

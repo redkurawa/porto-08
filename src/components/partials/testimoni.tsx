@@ -5,7 +5,7 @@ export const Testimoni = () => {
   return (
     <div className='inner-con'>
       <div className='text-primary-200 text-center text-lg'>TESTIMONIALS</div>
-      <AnimatedHeading className='text-display-md my-4 font-extrabold tracking-[0px] sm:text-[80px] sm:leading-[80px]'>
+      <AnimatedHeading className='text-display-md sm:text-display-2xl mb-12 font-extrabold'>
         PEOPLE SAYS ABOUT ME
       </AnimatedHeading>
       <div>

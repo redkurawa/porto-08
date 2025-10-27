@@ -6,7 +6,7 @@ export const FAQ = () => {
   return (
     <div className='inner-con'>
       <div className='text-primary-200 text-center text-lg'>FAQ</div>
-      <AnimatedHeading className='text-display-md my-4 font-extrabold tracking-[0px] sm:text-[80px] sm:leading-[80px]'>
+      <AnimatedHeading className='text-display-md sm:text-display-2xl mb-12 font-extrabold'>
         FREQUENTLY ASKED QUESTIONS
       </AnimatedHeading>
       <div className='grid grid-cols-1 gap-20 sm:grid-cols-2'>

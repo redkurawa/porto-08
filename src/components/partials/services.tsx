@@ -8,7 +8,7 @@ export const Services = () => {
     <div className='inner-con my-30'>
       <div className='text-primary-200 text-lg'>Services</div>
       <div className='block sm:flex'>
-        <AnimatedHeading className='text-display-md my-4 font-extrabold tracking-[0px] sm:text-[80px] sm:leading-[80px]'>
+        <AnimatedHeading className='text-display-md sm:text-display-2xl mb-12 font-extrabold'>
           MY SERVICE EXPERTISE
         </AnimatedHeading>
         <div className='text-md mt-5 font-medium text-neutral-400 sm:w-2/3 sm:text-xl'>

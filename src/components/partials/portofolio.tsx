@@ -7,10 +7,10 @@ export const Portofolio = () => {
   return (
     <div className='inner-con'>
       <div className='text-primary-200 text-center text-lg'>PORTFOLIO</div>
-      <AnimatedHeading className='text-display-md my-4 font-extrabold tracking-[0px] sm:text-[80px] sm:leading-[80px]'>
+      <AnimatedHeading className='text-display-md sm:text-display-2xl mb-12 font-extrabold'>
         SELECTED WORK
       </AnimatedHeading>
-      <div className='grid grid-cols-3 gap-x-5'>
+      <div className='grid grid-cols-1 gap-x-5 sm:grid-cols-3'>
         {[...Array(6)].map((_, i) => (
           <div key={i}>
             <Image
